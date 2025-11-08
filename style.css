@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('reset.css');
 
 body {
   background-color: black;
@@ -24,6 +20,7 @@ p {
 section {
   margin: 100px auto;
 }
+
 
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
@@ -113,7 +110,7 @@ section {
 #transform-world {
   height: 560px;
   background-size: cover;
-  background-image: url("../images/woman-code.png");
+  background-image: url("assets/images/woman-code.png");
   background-attachment: fixed;
   border-top: 1px solid #33A8DB80;
   border-bottom: 1px solid #33A8DB80;
